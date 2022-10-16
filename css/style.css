@@ -124,7 +124,15 @@ address {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
+.contact-icon {
+  fill: currentColor;
+}
+
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--accent-color);
@@ -226,6 +234,10 @@ address {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+}
+
+.personality-text {
+  line-height: calc(24 / 14);
 }
 
 /* section product */
